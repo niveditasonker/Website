@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Portfolio</title>
+    <style>
+      <link rel = "stylesheet" href="landingpage.css"/>
+    </style>
+  </head>
+  <body background="bluebg.jpg">
+    <div id="maindiv" style="border:1px solid red; height:100%; width: 100%" >
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+      <div id="navTab" class = "sidenav">
+        <a href="#">About</a>
+        <a href="#">Experience & Skills</a>
+        <a href="#">Education</a>
+        <a href="#">Let's talk</a>
+
+      </div>
+
+    </div>
+
+  </body>
+
+  <script>
+    function openNav() {
+      alert("hello");
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+  </script>
+</html>

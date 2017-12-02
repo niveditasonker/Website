@@ -1,0 +1,44 @@
+.quicklinks{
+  position: fixed;
+  right: 0;
+  top:-80px;
+  bottom: 0;
+  margin:auto;
+  height: 225px;
+  z-index: 1000;
+  background: #f68b1f;
+  display: block;
+}
+
+.quicklinks > ul {  width: 45px; }
+.quicklinks > ul > li {  font-size: 16px;  font-family: 'pt_sansregular'; width: 45px; height: 45px;
+transition: .5s all; -webkit-transition: .5s all;  position: relative;  right: 0;  float: right;
+border-bottom: 1px solid #f9ae63;  list-style: none;  background: #f68b1f; }
+.quicklinks > ul > li:last-child { border-bottom: none; }
+.quicklinks > ul > li.active {  background: #000000; }
+.quicklinks > ul > li:hover {  width: 250px; }
+.quicklinks > ul > li > a > span {  position: absolute;  left:50px;  top: 12px; color: #ffffff;  display: inline-block;
+width: 230px; }
+
+
+
+.quicklinks > ul > li > a { padding: 10px 5px 10px 10px; width:100%; display: block;}
+.quicklinks > ul > li.about-me {  background: #f68b1f;  color: #ffffff;}
+.quicklinks > ul > li.about-me:hover { width: 220px; display: inline-block; }
+.quicklinks > ul > li.about-me.active { background: #606060; }
+
+.quicklinks > ul > li.experience { background: #f68b1f; color: #ffffff; }
+.quicklinks > ul > li.experience:hover { width: 180px; display: inline-block; }
+.quicklinks > ul > li.experience.active { background: #606060; }
+
+.quicklinks > ul > li.skills { background: #f68b1f; color: #ffffff; }
+.quicklinks > ul > li.skills:hover { width: 150px; display: inline-block;}
+.quicklinks > ul > li.skills.active { background: #606060;}
+
+.quicklinks > ul > li.education { background: #f68b1f; color: #ffffff;}
+.quicklinks > ul > li.education:hover { width: 190px; display: inline-block;}
+.quicklinks > ul > li.education.active { background: #606060;}
+
+.quicklinks > ul > li.contact { background: #f68b1f; color: #ffffff;}
+.quicklinks > ul > li.contact:hover { width: 160px; display: inline-block;}
+.quicklinks > ul > li.contact.active { background: #606060; }
