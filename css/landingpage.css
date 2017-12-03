@@ -1,4 +1,4 @@
-.quicklinks{
+/*.quicklinks{
   position: fixed;
   right: 0;
   top:-80px;
@@ -41,4 +41,42 @@ width: 230px; }
 
 .quicklinks > ul > li.contact { background: #f68b1f; color: #ffffff;}
 .quicklinks > ul > li.contact:hover { width: 160px; display: inline-block;}
-.quicklinks > ul > li.contact.active { background: #606060; }
+.quicklinks > ul > li.contact.active { background: #606060; }*/
+
+
+
+
+ul#navigation {
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    top: 10px;
+    left: 0px;
+    list-style: none;
+    z-index:9999;
+}
+span{font-size:1.3em !important;}
+span i{font-size:1.5em !important; padding-top:15px !important ;}
+ul#navigation li {
+    width: 100px;
+}
+ul#navigation li a {
+    display: block;
+    margin-left: -2px;
+    width: 140px;
+    height: 70px;
+    background-color:#CFCFCF;
+    background-repeat:no-repeat;
+    background-position:center center;
+    border:1px solid #AFAFAF;
+    -moz-border-radius:0px 10px 10px 0px;
+    -webkit-border-bottom-right-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -khtml-border-bottom-right-radius: 10px;
+    -khtml-border-top-right-radius: 10px;
+    /*-moz-box-shadow: 0px 4px 3px #000;
+    -webkit-box-shadow: 0px 4px 3px #000;
+    */
+    opacity: 0.6;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=60);
+}
