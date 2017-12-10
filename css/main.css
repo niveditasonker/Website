@@ -1,14 +1,17 @@
+
 body{
 	background: url("/images/bg1.jpg") no-repeat fixed ;
+	font-style: cambria;
 }
 
+
 .quicklinks { display:none; }
-.quicklinks {  position: fixed;  right: 0; top:-80px;  bottom: 0; margin: auto;  height: 500px; z-index: 1000;
+.quicklinks {  position: fixed;  right: 0; top:-80px;  bottom: 0; margin: auto;  height: 300px; z-index: 1000;
  display: block;}
 .quicklinks > ul {  width: 100px; }
-.quicklinks > ul > li {  font-size: 16px;  font-family: 'pt_sansregular'; width: 100px; height: 100px;
+.quicklinks > ul > li {  font-size: 16px;  font-family: 'pt_sansregular'; width: 100px; height: 60px;
 transition: .5s all; -webkit-transition: .5s all;  position: relative;  right: 0;  float: right;  list-style: none;
-box-shadow:0 2px 5px 0 #f44336 ,0 2px 10px 0 #f44336 }
+ }
 .quicklinks > ul > li:last-child { border-bottom: none; }
 .quicklinks > ul > li:hover {  width: 300px;box-shadow:0 4px 10px 0 #ffc107,0 4px 20px 0 #ffc107}
 /* .quicklinks > ul > li > a > span { color: #ffffff;}*/
@@ -21,3 +24,27 @@ width: 230px; }
 .quicklinks > ul > li.about:hover { width: 250px; display: inline-block; }
 
 .quicklinks > ul > li.experience:hover { width: 300px; display: inline-block; }
+.quicklinks > ul > li.skills:hover { width: 300px; display: inline-block; }
+.quicklinks > ul > li.education:hover { width: 300px; display: inline-block; }
+.quicklinks > ul > li.contact:hover { width: 300px; display: inline-block; }
+
+
+/*.quicklinks { display:none; }
+.quicklinks {  position: fixed;  left: 0; top:-80px;  bottom: 0; margin: auto;  height: 300px; z-index: 1000;
+ display: block;}
+.quicklinks > ul {  width: 100px; }
+.quicklinks > ul > li {  font-size: 16px;  font-family: 'pt_sansregular'; width: 100px; height: 60px;
+transition: .5s all; -webkit-transition: .5s all;  position: relative;  left: 0;  float: left;  list-style: none;
+box-shadow:0 2px 5px 0 #f44336 ,0 2px 10px 0 #f44336 }
+.quicklinks > ul > li:last-child { border-bottom: none; }
+.quicklinks > ul > li:hover {  width: 300px;box-shadow:0 4px 10px 0 #ffc107,0 4px 20px 0 #ffc107}
+
+.quicklinks > ul > li > a > span {  position: absolute;  left:100px;  top: 30px; color: #000000;  display: inline-block;
+width: 230px; }
+
+
+
+.quicklinks > ul > li > a { padding: 5px 5px 10px 4px; width:100%; display: block;}
+.quicklinks > ul > li.about:hover { width: 250px; display: inline-block; }
+
+.quicklinks > ul > li.experience:hover { width: 300px; display: inline-block; }*/
